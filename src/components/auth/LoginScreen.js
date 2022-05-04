@@ -8,14 +8,14 @@ import './login.css';
 export const LoginScreen = () => {
   const dispatch = useDispatch();
   const [formLoginValues, handleLoginInputChange] = useForm({
-    lEmail: 'romeramatias@gmail.com',
-    lPassword: '123123',
+    lEmail: '',
+    lPassword: '',
   });
   const [formRegisterValues, handleRegisterInputChange] = useForm({
-    rName: 'Matias',
-    rEmail: 'romeramatias@gmail.com',
-    rPassword1: '123123',
-    rPassword2: '123123',
+    rName: '',
+    rEmail: '',
+    rPassword1: '',
+    rPassword2: '',
   });
 
   const { lEmail, lPassword } = formLoginValues;
